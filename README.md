@@ -4,10 +4,10 @@ After leaving the README.MD almost untouched for 2 years-ish with a cryptic mess
 
 This is the webpage, I've created a few years ago now. It evolved slowly to host the links to things I've been working the last few years: 
 
-* The questions I've asked on StackOverflow
-* My personal projects on Github
-* The Fablab/Hackerspace I've co-founded, Le Petit Fablab de Paris
-* And my CV's in English and French
+* The questions I've asked on [StackOverflow](https://stackoverflow.com/users/2572645/andy-k)
+* My personal projects on [Github](https://github.com/kw-andy)
+* The Fablab/Hackerspace I've co-founded, [Le Petit Fablab de Paris](https://lepetitfablabdeparis.fr/)
+* And my CV's in English and French (check my webpage, the URL's are there)
 
 Everything on that space is influx, so likely it will change in the near future with maybe adding a blog and probably something else.
 
