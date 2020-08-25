@@ -11,3 +11,56 @@
        url('fonts/nanum-pen-script-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('fonts/nanum-pen-script-v15-latin-regular.svg#NanumPenScript') format('svg'); /* Legacy iOS */
 }
+
+
+
+
+/* Hello! Je suis Andy, bienvenue sur mon site. Vous pouvez trouver mes projets sur github, mes questions et réponses sur Stackoverflow and mon blog.Et mon cv, en Anglais (ici) et en Français (Ici). */
+
+.positionFrenchRec {
+
+  position: absolute;
+  left: 5.48%;
+  right: 61.36%;
+  top: 4.36%;
+  bottom: 52.28%;
+  
+  font-family: Nanum Pen Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: px;
+  line-height: 30px;
+  
+  color: #FFFFFF;
+}
+
+/* Hello! I’m Andy, welcome to my website. This space is to showcase my projects on github, my questions and answers on Stackoverflow and my blog.my cv, in English (here) and in French (here). */
+
+.positionEnglishRec {
+  position: absolute;
+  left: 5.48%;
+  right: 61.36%;
+  top: 43.15%;
+  bottom: 17.49%;
+
+font-family: Nanum Pen Script;
+font-style: normal;
+font-weight: normal;
+font-size: px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+
+/* LOGO_JUSTGODEV_BLANC_RVB 2 */
+.positionImgJust {
+position: absolute;
+left: 65%;
+right: -10.64%;
+top: 62%;
+bottom: 6.17%;
+
+
+background: url(LOGO_JUSTGODEV_BLANC_RVB.png);
+}
