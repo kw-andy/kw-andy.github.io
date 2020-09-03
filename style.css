@@ -10,50 +10,75 @@
        url('fonts/nanum-pen-script-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
        url('fonts/nanum-pen-script-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('fonts/nanum-pen-script-v15-latin-regular.svg#NanumPenScript') format('svg'); /* Legacy iOS */
+  font-family: 'Raleway Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway'),
+       url('fonts/Raleway-Light.ttf') format('truetype')  
+  font-family: 'Montserrat Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat'), local('Montserrat'),
+       url('fonts/Montserrat-Regular.ttf') format('truetype')        
 }
 
+.positiontitleRec {
 
-
+  position: absolute;
+  left: 5.1%;
+  right: 50.85%;
+  top: 3.64%;
+  bottom: 65.33%;
+  
+  font-family: Montserrat Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 30px;
+  
+  color: #000000;
+}
 
 /* Hello! Je suis Andy, bienvenue sur mon site. Vous pouvez trouver mes projets sur github, mes questions et réponses sur Stackoverflow and mon blog.Et mon cv, en Anglais (ici) et en Français (Ici). */
+
 
 .positionFrenchRec {
 
   position: absolute;
-  left: 5.48%;
-  right: 61.36%;
-  top: 4.36%;
-  bottom: 52.28%;
+  left: 5.1%;
+  right: 61.75%;
+  top: 10.7%;
+  bottom: 45.8%;
   
-  font-family: Nanum Pen Script;
+  font-family: Raleway Script;
   font-style: normal;
   font-weight: normal;
   font-size: px;
   line-height: 30px;
   
-  color: #FFFFFF;
+  color: #000000;
 }
 
 /* Hello! I’m Andy, welcome to my website. This space is to showcase my projects on github, my questions and answers on Stackoverflow and my blog.my cv, in English (here) and in French (here). */
 
 .positionEnglishRec {
   position: absolute;
-  left: 5.48%;
-  right: 61.36%;
-  top: 43.15%;
-  bottom: 17.49%;
+  left: 5.1%;
+  right: 70.15%;
+  top: 65.89%;
+  bottom: 5.4%
 
-font-family: Nanum Pen Script;
+font-family: Raleway Script;
 font-style: normal;
 font-weight: normal;
 font-size: px;
 line-height: 30px;
 
-color: #FFFFFF;
+color: #000000;
 }
 
 
-/* LOGO_JUSTGODEV_BLANC_RVB 2 */
+/* LOGO_JUSTGODEV_NOIR_RVB 2 */
 .positionImgJust {
 position: absolute;
 left: 65%;
@@ -62,5 +87,5 @@ top: 62%;
 bottom: 6.17%;
 
 
-background: url(LOGO_JUSTGODEV_BLANC_RVB.png);
+background: url(LOGO_JUSTGODEV_NOIR_RVB.png);
 }
