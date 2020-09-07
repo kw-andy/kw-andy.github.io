@@ -33,13 +33,13 @@
 }
 
 
-.positiontitleRec {
+.positionTitleRec {
 
   position: absolute;
-  left: 61.75%;
-  right: 5.1%;
-  top: 38.24%;
-  bottom: 2.3%;
+  left: 5.1%;
+  right: 50.85%;
+  top: 3.64%;
+  bottom: 60.33%;
   
   font-family: Montserrat Script;
   font-style: normal;
@@ -48,7 +48,6 @@
   line-height: 30px;
   
   color: #FFFFFF;
-
 }
 
 .positionLowTitle {
