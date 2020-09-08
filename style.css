@@ -119,7 +119,7 @@ background: url(LOGO_JUSTGODEV_BLANC_RVB.png);
 }
 
 .positionConcaveArrow {
- position: absolute;
+ position: relative;
 left: 25.71%;
 right: 65.2%;
 top: 67.43%;
