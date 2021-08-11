@@ -9,4 +9,4 @@ I've redesigned the website with the design created by Yohanna Mentzel in 2020.
 Not many change since that.
 
 
-![screenshot](Screenshot_web.png)
+![screenshot](screenshot-08021.png)
