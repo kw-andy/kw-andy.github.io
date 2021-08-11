@@ -1,14 +1,12 @@
 ## Welcome to my webpage
 
-After leaving the README.MD almost untouched for 2 years-ish with a cryptic message (`This space is used for various tests`), I thought about writing a decent README yesterday after creating decent READMEs for two of my personal projects, I've been working on, namely [Kidding Python](https://github.com/kw-andy/kidding_python) and the [rust tutorial](https://github.com/kw-andy/rust-tutorial).
+Update from 2020 and most recent, August 2021:
 
-This is the webpage, I've created a few years ago now. It evolved slowly to host the links to things I've been working the last few years: 
+Lack of time to update the README.md but changes since 2020 and 2021.
 
-* The questions I've asked on [StackOverflow](https://stackoverflow.com/users/2572645/andy-k)
-* My personal projects on [Github](https://github.com/kw-andy)
-* The Fablab/Hackerspace I've co-founded, [Le Petit Fablab de Paris](https://lepetitfablabdeparis.fr/)
-* And my CV's in English and French (check my webpage, the URL's are there)
+I've redesigned the website with the design created by Yohanna Mentzel in 2020.
 
-Everything on that space is influx, so likely it will change in the near future with maybe adding a blog and probably something else.
+Not many change since that.
+
 
 ![screenshot](Screenshot_web.png)
