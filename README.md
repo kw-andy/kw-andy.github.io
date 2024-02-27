@@ -1,5 +1,9 @@
 ## Welcome to my webpage
 
+### Note
+
+- The webpage is using github repo as the hosting service (see dns)
+
 Update from 2020 and most recent, August 2021:
 
 Lack of time to update the README.md but changes since 2020 and 2021.
