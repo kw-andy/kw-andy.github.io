@@ -24,6 +24,9 @@ body {
   max-width: 150px;
   height: auto;
   margin-bottom: 1.5rem;
+  background-color: #222; /* ou #95A595 pour rester dans ta palette */
+  padding: 1rem;
+  border-radius: 12px;
 }
 
 .language-toggle {
