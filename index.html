@@ -1,44 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Just Go Dev</title>
-    <link rel="shortcut icon" type="image/x-icon" href="just-go-fav.png">
-    <link rel="stylesheet" href="style.css">
-
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
-    <meta charset="utf-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Just Go Dev</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="just-go-fav.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 
-<body text="#000000" bgcolor="#95A595"> <!--4523B9-->
+<body>
+  <div class="container">
+    <img src="LOGO_JUSTGODEV_BLANC_RVB.png" alt="Just Go Dev Logo" class="logo" />
 
-    <p class="positionTitleRec">
-     Bienvenue  
-    </p>    
-    <p class="positionFrenchRec">
-        <br>
-        <br>Bonjour, 
-        <br>
-        Vous pouvez trouver <a href="https://github.com/kw-andy" target="_blank">mes projets sur github</a> , 
-        mes <a href="https://stackoverflow.com/users/2572645/andy-k" target="_blank">questions et réponses </a>sur <a href="https://stackoverflow.com" target="_blank"> Stackoverflow</a> 
+    <div class="language-toggle">
+      <button onclick="switchLang('fr')">Français</button>
+      <button onclick="switchLang('en')">English</button>
+    </div>
+
+    <div id="content-fr" class="lang-content">
+      <h1>Bienvenue</h1>
+      <p>
+        Bonjour, vous pouvez trouver 
+        <a href="https://github.com/kw-andy" target="_blank">mes projets sur GitHub</a>, 
+        mes <a href="https://stackoverflow.com/users/2572645/andy-k" target="_blank">questions et réponses</a> sur 
+        <a href="https://stackoverflow.com" target="_blank">Stack Overflow</a>, 
         et <a href="https://blog.just-go.dev/" target="_blank">mon blog</a>.
-        <br>
-        <br>
-    </p>
-    <p class="positionLowTitle">
-     Welcome  
-    </p>  
-    <p class="positionEnglishRec">
-        <br>
-        <br>Hey, 
-        <br>
-        <a href="https://github.com/kw-andy" target="_blank">My projects on github</a> , 
-        my <a href="https://stackoverflow.com/users/2572645/andy-k" target="_blank">questions & answers </a>on <a href="https://stackoverflow.com" target="_blank"> Stackoverflow</a> 
-        and <a href="https://blog.just-go.dev/"  target="_blank">my blog</a>.
-        <br>
-        <br>
-    </p>
-<a href=""><img class="positionImgJust" src="LOGO_JUSTGODEV_BLANC_RVB.png"></a>
+      </p>
+    </div>
+
+    <div id="content-en" class="lang-content hidden">
+      <h1>Welcome</h1>
+      <p>
+        Hey, you can find 
+        <a href="https://github.com/kw-andy" target="_blank">my projects on GitHub</a>, 
+        my <a href="https://stackoverflow.com/users/2572645/andy-k" target="_blank">questions and answers</a> on 
+        <a href="https://stackoverflow.com" target="_blank">Stack Overflow</a>, 
+        and <a href="https://blog.just-go.dev/" target="_blank">my blog</a>.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.getElementById('content-fr').classList.toggle('hidden', lang !== 'fr');
+      document.getElementById('content-en').classList.toggle('hidden', lang !== 'en');
+    }
+  </script>
 </body>
 </html>
